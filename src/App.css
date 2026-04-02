@@ -21,22 +21,28 @@ body {
 
 .btn {
   
-  background: #7ede81;
+  background: hsla(107, 78%, 75%, 0.571);
   
   padding: 10px 20px;
   color: white;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 5px;
   margin:2px ;
-  box-shadow: hue;
+  border: 2px solid white;
+  /* box-shadow: hue */
 }
 
 .btn-outline {
   border: 2px solid white;
   padding: 10px 20px;
-  background: transparent;
+  background: hsla(107, 82%, 69%, 0.642);
   color: white;
   margin-left: 10px;
+  border-radius: 5px;
+}
+.hero-para {
+  font-size: 17px;
+  margin-left: 2px ;
 }
 
 /* Hero Section */
@@ -102,4 +108,13 @@ body {
   transform: scale(1.1);
   color: #4CAF50;
   transition: 0.3s;
+}
+.Title{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.logo-img {
+  height: 70px;
+  width: auto;
+  object-fit: contain;
 }

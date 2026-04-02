@@ -60,17 +60,15 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1 className="Title">Organic Farming & Agriculture</h1>
-          <p>Grow naturally with modern techniques and sustainable farming</p>
+          <h1 className="Title">Smart Crop Advisory System</h1>
+          <p className="hero-para">Make data-driven farming decisions with AI-powered insights</p>
           <div className="hero-buttons">
-            <button className="btn">Discover More</button>
-            <button className="btn-outline">See All Services</button>
+            <button className="btn">🌱 Get Crop Recommendation</button>
+            <button className="btn-outline">🌦️ Check Weather Insights</button>
           </div>
         </div>
-      </section>
-
-      {/* 🌦 Weather Section (NEW) */}
-      <section style={{ textAlign: "center", margin: "40px" }}>
+         {/* 🌦 Weather Section (NEW) */}
+      <section style={{ textAlign: "center", margin:"auto"}}>
         <h2>🌾 Agro Weather Dashboard</h2>
 
         {weather ? (
@@ -92,6 +90,9 @@ function App() {
           <p>Loading weather...</p>
         )}
       </section>
+      </section>
+
+     
 
       {/* Services Section */}
       <section className="services">
